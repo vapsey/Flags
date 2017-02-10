@@ -1,0 +1,62 @@
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: navy;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 100%;
+  width: 29%;
+  height: 50%;
+  background: red;
+  margin-top: 15%;
+  margin-left: 35%;
+  z-index: 10;
+}
+
+.white {
+  background: white;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.column {
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+
+.black {
+  background: black;
+}
+
+#rect-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: transparent;
+}
+
+#rect-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.leftbox {
+  margin-top: 20%;
+  width: 50%;
+  height: 33.33%;
+  background: white;
+}
